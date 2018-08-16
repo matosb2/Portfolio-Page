@@ -3,122 +3,145 @@
 } */
 
 body {
-     font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* background-color: #343a40;
      */
 }
 
- h1 {
-     margin-top: 40px;
-     font-weight: 600;
-     font-style: italic;
-}
- h5 {
-     text-align: center;
-}
- hr {
-     margin-top: .5em;
-     border-top: 1px solid rgba(0,0,0,.5);
-     width: 15em;
-}
- footer {
-     background: #262626;
-     margin-top: 3em;
-}
- footer ul li{
-     display: inline-block;
-     padding: 7px;
-     cursor: pointer;
-}
- footer ul {
-     float: right;
-}
- nav {
-     float: right;
-}
- ul {
-     list-style: none;
-}
- nav ul li {
-     cursor: pointer;
-     padding: 10px;
-     display: inline;
-     color: white;
+h1 {
+    margin-top: 40px;
+    font-weight: 600;
+    font-style: italic;
 }
 
-.copyright {
+h5 {
+    text-align: center;
+}
+
+hr {
+    margin-top: .5em;
+    border-top: 1px solid rgba(0, 0, 0, .5);
+    width: 15em;
+}
+
+footer {
+    background: #262626;
+    margin-top: 3em;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 3px 0px 3px 10px;
+    cursor: pointer;
+}
+
+footer ul {
+    float: right;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    cursor: pointer;
+    padding: 10px;
+    display: inline;
+    color: white;
+}
+
+.bot-nav {
     float: left;
     font-weight: 300;
     color: gray;
     padding-top: 7px;
 }
 
-.copyright li {
+.copyright {
+    float: right;
+}
+
+.bot-nav li {
     padding: 25px;
 }
 
- .foot {
-     margin-top: 30px;
-     color: white;
+.foot {
+    margin-top: 30px;
+    color: white;
 }
- .foot p{
-     color: white;
-     font-size: .8em;
-     text-align: right;
-     margin-bottom: 0px;
+
+.foot p {
+    color: white;
+    font-size: .8em;
+    text-align: right;
+    margin-bottom: 0px;
 }
- .begin h1 {
-     color: white;
-     padding-top: 200px;
-     margin-bottom: 0;
-     text-shadow: 2px 2px 4px #000;
+
+.begin h1 {
+    color: white;
+    padding-top: 200px;
+    margin-bottom: 0;
+    text-shadow: 2px 2px 4px #000;
 }
- .begin h3 {
-     color: white;
-     text-shadow: 2px 2px 4px #000;
+
+.begin h3 {
+    color: white;
+    text-shadow: 2px 2px 4px #000;
 }
- .main-sect {
-     background: url("https://images.unsplash.com/photo-1511287381215-8c58b84f8896?ixlib=rb-0.3.5…EyMDd9&s=8fd2fd0…&auto=format&fit=crop&w=1950&q=80");
-     background-size: cover;
-     background-position: center;
-     height: 650px;
+
+.main-sect {
+    background: url("https://images.unsplash.com/photo-1511287381215-8c58b84f8896?ixlib=rb-0.3.5…EyMDd9&s=8fd2fd0…&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
 }
- .begin {
-     float: right;
+
+.begin {
+    float: right;
 }
- .about h1, p {
-     color: black;
-     text-align: center;
+
+.about h1,
+p {
+    color: black;
+    text-align: center;
 }
- .about .container div{
-     margin-top: 150px;
+
+.about .container div {
+    margin-top: 150px;
 }
 
 .container {
     overflow: hidden;
 }
 
- .me {
-     float: left;
-     margin-right: 100px;
+.me {
+    float: left;
+    margin-right: 100px;
 }
 
 .img-thumbnail div {
     margin: 0 auto;
 }
 
- .img-thumbnail {
-     height: 225px;
-     display: flex;
-     border: none;
-}
- .img-thumbnail img {
-     max-width: 100%;
-     max-height: 80%;
+.img-thumbnail {
+    height: 225px;
+    display: flex;
+    border: none;
 }
 
- .work h1 {
-     text-align: center;
-     padding-top: 20px;
-     padding-bottom: 40px;
+.img-thumbnail img {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.work h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
